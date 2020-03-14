@@ -14,7 +14,7 @@
       <h1>HTML/CSS</h1>
       <div class="practice">
       <img src="img/practice.jpeg" alt="practice">
-      <p>
+      <p class="hc">
       HTMLとCSSの<span>復習</span>をしています。
       <br>
       大体の内容は理解できています。
@@ -58,8 +58,10 @@
       <form action="#" method="post">
         <p>名前: <input type="text" name="name" value="" placeholder="abc太郎"></p>
         <p>
-          <input type="radio" name="sex" value="man"> :男
-          <input type="radio" name="sex" value="woman"> :女
+          <select name="sex">
+            <option value="man">男</option>
+            <option value="woman">女</option>
+          </select>
         </p>
         <p>
           <textarea name="introduction" rows="8" cols="80" placeholder="自己紹介を入力してください"></textarea>
