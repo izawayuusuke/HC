@@ -25,3 +25,15 @@ h1 {
   font-size: 20px;
   color: #050055;
 }
+
+dt {
+  letter-spacing: 20px;
+}
+dd {
+  text-indent: 50px;
+}
+
+pre {
+  font-size: 50px;
+}
+
